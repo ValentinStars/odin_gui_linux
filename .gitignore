@@ -31,7 +31,9 @@ odin4_gui/*.log
 # Firmware, binaries, and large artifacts
 odin4
 adb
+odin/
 *.tar.md5
+*.tar
 *.img
 *.zip
 *.torrent
