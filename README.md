@@ -44,6 +44,14 @@ pyinstaller --noconfirm --onefile --windowed \
 - `odin4_gui/theme.qss` — тема Odin VST
 - `odin4_gui/profiles/devices.json` — профили устройств
 
+## Конфигурация
+Пользовательские настройки и профили копируются в каталог конфигурации Qt.
+
+- Linux: `~/.config/odin/`
+
+## Примечания
+Файлы прошивок и бинарники `odin4`/`adb` в репозиторий не включаются.
+
 ## Автор
 Valentin Stars
 
