@@ -1,0 +1,24 @@
+{
+  "profiles": [
+    {
+      "id": "samsung_generic",
+      "name": "Samsung - Generic",
+      "model": "Any Samsung (BL/AP/CP/CSC patterns)",
+      "notes": "Auto-detect firmware files by standard Samsung naming. Use a firmware folder that contains BL_*, AP_*, CP_* and CSC_* or HOME_CSC_* .",
+      "patterns": {
+        "BL": "BL_*.tar.md5",
+        "AP": "AP_*.tar.md5",
+        "CP": "CP_*.tar.md5",
+        "CSC": "CSC_*.tar.md5",
+        "HOME_CSC": "HOME_CSC_*.tar.md5"
+      },
+      "flags": {
+        "reboot": true,
+        "redownload": false,
+        "nand_erase": false,
+        "home_validate": false
+      },
+      "default_csc_prefer_home": true
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+/* Odin VST - custom theme (no external assets) */
+
+QWidget {
+    background: #0e1014;
+    color: #e8eaed;
+    font-family: "Space Grotesk", "IBM Plex Sans", "Segoe UI", "Arial";
+    font-size: 12pt;
+}
+
+#Sidebar {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #0f1522, stop:1 #0c0f14);
+    border-right: 1px solid #1f2733;
+}
+
+#BrandLabel {
+    font-size: 18pt;
+    font-weight: 700;
+    color: #e8eaed;
+}
+
+#SubBrandLabel {
+    font-size: 10pt;
+    color: #9aa7b8;
+}
+
+QToolButton {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 11pt;
+    color: #c6d0dc;
+}
+
+QToolButton:hover {
+    background: #131a24;
+    border: 1px solid #223046;
+}
+
+QToolButton:checked {
+    background: #162232;
+    border: 1px solid #2c3f5c;
+    color: #eaf6ff;
+}
+
+QGroupBox {
+    border: 1px solid #202938;
+    border-radius: 12px;
+    margin-top: 12px;
+    padding: 14px;
+    background: #0f141b;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 6px;
+    color: #b7c3d1;
+}
+
+QLineEdit, QComboBox, QPlainTextEdit, QTextEdit {
+    background: #0c1118;
+    border: 1px solid #1d2836;
+    border-radius: 10px;
+    padding: 6px 8px;
+    selection-background-color: #2f7a6f;
+}
+
+QPlainTextEdit {
+    font-family: "JetBrains Mono", "Fira Code", "Consolas", "Courier New";
+    font-size: 10pt;
+}
+
+QPushButton {
+    background: #1c2635;
+    border: 1px solid #2a3a53;
+    border-radius: 10px;
+    padding: 8px 12px;
+    color: #e8eaed;
+}
+
+QPushButton:hover {
+    background: #243349;
+}
+
+QPushButton:disabled {
+    color: #768394;
+    background: #151b26;
+    border: 1px solid #1b2533;
+}
+
+QPushButton#PrimaryButton {
+    background: #1a6e70;
+    border: 1px solid #2a9a9c;
+    color: #eaf6ff;
+    font-weight: 600;
+}
+
+QPushButton#PrimaryButton:hover {
+    background: #23858a;
+}
+
+QPushButton#DangerButton {
+    background: #6a1f1f;
+    border: 1px solid #8d2a2a;
+}
+
+QPushButton#DangerButton:hover {
+    background: #7d2626;
+}
+
+QCheckBox {
+    spacing: 8px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    border: 1px solid #2a3a53;
+    background: #101621;
+}
+
+QCheckBox::indicator:checked {
+    background: #1a6e70;
+    border: 1px solid #2a9a9c;
+}
+
+QProgressBar {
+    background: #0c1118;
+    border: 1px solid #1d2836;
+    border-radius: 8px;
+    text-align: center;
+    color: #9aa7b8;
+}
+
+QProgressBar::chunk {
+    background: #1a6e70;
+    border-radius: 8px;
+}
+
+#Card {
+    background: #0f141b;
+    border: 1px solid #202938;
+    border-radius: 12px;
+}
+
+#MutedLabel {
+    color: #9aa7b8;
+    font-size: 10pt;
+}
+
+#AccentLabel {
+    color: #7fe0d1;
+    font-weight: 600;
+}
+
