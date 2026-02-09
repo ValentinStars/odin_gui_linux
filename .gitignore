@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env
+.envrc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# App artifacts
+odin4_gui/settings.json
+odin4_gui/*.log
+
+# Firmware, binaries, and large artifacts
+odin4
+adb
+*.tar.md5
+*.img
+*.zip
+*.torrent
+*.apk
+*.bin
+*.md5
+AP/
+GALAXY_A01_CORE/
+AP Stock Galaxy A01 Core (A013F)/
+kali-nethunter-*/
+recovery*
+system.img
+repack.tar.md5
+mtkclient/
