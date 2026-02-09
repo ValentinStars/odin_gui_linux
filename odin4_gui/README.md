@@ -25,7 +25,6 @@ pyinstaller --noconfirm --onefile --windowed \
   --add-data "theme.qss:." \
   --add-data "profiles/devices.json:profiles" \
   --add-binary "../odin4:." \
-  --add-binary "../adb:." \
   main.py
 ```
 
