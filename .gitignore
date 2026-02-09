@@ -29,7 +29,6 @@ odin4_gui/settings.json
 odin4_gui/*.log
 
 # Firmware, binaries, and large artifacts
-odin4
 adb
 odin/
 *.tar.md5
