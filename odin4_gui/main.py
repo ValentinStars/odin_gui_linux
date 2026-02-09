@@ -1471,6 +1471,7 @@ def main() -> None:
     app = QtWidgets.QApplication(sys.argv)
     app.setApplicationName("odin")
     signal.signal(signal.SIGINT, lambda *_args: app.quit())
+    signal.signal(signal.SIGTERM, lambda *_args: app.quit())
     sig_timer = QtCore.QTimer()
     sig_timer.start(200)
     sig_timer.timeout.connect(lambda: None)
