@@ -13,8 +13,7 @@
 ## Требования
 - Linux.
 - `odin4` рядом с проектом или в одном бинарнике.
-- `adb` в PATH или рядом с проектом / внутри одного бинарника.
-
+  
 ## Запуск (из исходников)
 ```bash
 cd odin4_gui
@@ -33,7 +32,6 @@ pyinstaller --noconfirm --onefile --windowed \
   --add-data "theme.qss:." \
   --add-data "profiles/devices.json:profiles" \
   --add-binary "../odin4:." \
-  --add-binary "../adb:." \
   main.py
 ```
 
@@ -48,9 +46,6 @@ pyinstaller --noconfirm --onefile --windowed \
 Пользовательские настройки и профили копируются в каталог конфигурации Qt.
 
 - Linux: `~/.config/odin/`
-
-## Примечания
-Файлы прошивок и бинарники `odin4`/`adb` в репозиторий не включаются.
 
 ## Автор
 Valentin Stars
